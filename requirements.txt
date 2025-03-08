@@ -7,3 +7,4 @@ streamlit
 chromadb
 beautifulsoup4
 selenium
+pysqlite3-binary
