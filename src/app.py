@@ -80,7 +80,7 @@ def main():
                     st.write(f"{i+1}. {url}")
 
     if "vectorstores" not in st.session_state or len(st.session_state.vectorstores) == 0:
-        st.info("Please enter a primary website URL and click 'Add Primary URL'")
+        st.info("Please enter a primary website URL and click 'Set as Primary URL'")
     else:
         # session state
         if "chat_history" not in st.session_state:
